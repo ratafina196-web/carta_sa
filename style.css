@@ -204,6 +204,24 @@ z-index: 0;
     transition: transform .5s ease-in-out;
 }
 
+#musica {
+    position: fixed;
+    top: 20px;
+    right: 20px; /* cambia a left si lo quieres a la izquierda */
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    opacity: 0.9;
+    z-index: 1000;
+}
+
+#musica:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+
 .carta.cerrando-carta{
     transform: translateY(-240px);
     transition: transform .5s ease-in-out;
